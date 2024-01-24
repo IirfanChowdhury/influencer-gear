@@ -1,0 +1,462 @@
+* {
+    margin: 0;
+}
+
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF;
+}
+
+/* header style */
+.header-container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.header {
+    width: 1170px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hdr-title {
+    color: #3A3A3A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    column-gap: 50px;
+    color: #3A3A3A;
+    font-weight: bold;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+/* body style */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.first-division {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.first-division .title {
+    width: 600px;
+
+}
+
+.section-title {
+    color: #3A3A3A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    /* 134.615% */
+    margin-bottom: 20px;
+}
+
+.description {
+    margin-bottom: 25px;
+    color: #3A3A3A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.btn-primary button {
+    color: aliceblue;
+    border: 0;
+    background-color: #E02C6D;
+    font-size: 1.3em;
+    border-radius: 40px;
+    padding: 12px 25px;
+}
+
+.icon {
+    padding-left: 10px;
+}
+
+/* sponser styles */
+.sponser-container {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+}
+
+/* polpuler collection styiles */
+.collections-title {
+    margin-top: 100px;
+    text-align: center;
+    color: #3A3A3A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+    /* 250% */
+}
+
+.collection-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.collection-item {
+    width: 330px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.item-title {
+    margin-top: 15px;
+    color: var(--Text-Gray-900, #18191F);
+    font-feature-settings: 'liga' off;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 142.857% */
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.item-price {
+    margin-bottom: 5px;
+    color: var(--Dark-Color, rgba(0, 0, 0, 0.87));
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 36px */
+}
+
+.item-rating {
+    text-size-adjust: 1em;
+    margin-bottom: 5px;
+    font-size: small;
+    margin-bottom: 10px;
+}
+
+.item-rating .filled {
+    color: orange;
+    font-size: small;
+}
+
+.item-rating .half-filled {
+    color: orange;
+    font-size: small;
+    padding-right: 5px;
+}
+
+.item-description {
+    color: var(--Gray-50, #787885);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 143%;
+    /* 20.02px */
+    letter-spacing: 0.252px;
+}
+
+.collection-end {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.nothing {
+    visibility: hidden;
+}
+
+.collection-end a {
+    text-decoration: none;
+    color: rgba(224, 44, 109, 0.87);
+    font-weight: bold;
+    font-size: large;
+}
+
+.end-gap {
+    margin-right: 10px;
+}
+
+.product-container {
+    margin-top: 100px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 90px;
+}
+
+/* featured product styles */
+.btn-secondery button {
+    color: aliceblue;
+    border: 0;
+    background-color: #E02C6D;
+    font-size: 1.3em;
+    border-radius: 1px;
+    padding: 12px 25px;
+}
+
+.featured-title {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    color: #0A0826;
+}
+
+.featured-description {
+    color: #6C6C6C;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+
+/* footer styles */
+.footer-container {
+    margin-top: 100px;
+    background: #0A0826;
+}
+
+.footers {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.footer-title {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer-description {
+    color: var(--Text-Gray-300, #D9DBE1);
+    font-feature-settings: 'liga' off;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 171.429% */
+}
+
+.footer-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .header-container {
+        margin-top: 80px;
+        margin-bottom: 80px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .header-section {
+        justify-content: center;
+    }
+
+    .first-division {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .title-image img {
+        text-align: center;
+        width: 100%;
+    }
+
+    .first-division .title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .sponser-container {
+        column-gap: 30px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .collections {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .item {
+        width: 100%;
+    }
+
+    .collection-item {
+        width: 100%;
+    }
+
+    .nothing {
+        display: none;
+    }
+
+    .products {
+        flex-direction: column-reverse;
+    }
+
+    .product-division img {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .product-division {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    body {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .first-division {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .title-image img {
+        text-align: center;
+        width: 100%;
+    }
+
+    .first-division .title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .sponser-container {
+        column-gap: 30px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .collections {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .collection-item-1 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .products {
+        flex-direction: column-reverse;
+    }
+
+    .product-division img {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .product-division {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    
+}
